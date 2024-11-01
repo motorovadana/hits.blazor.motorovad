@@ -9,8 +9,8 @@ namespace TodoServerApp.Data.Service
         public static IEnumerable<TaskItem> Tasks { get; } = [
 
           new() { Id = 1, Title = "Задача 1", Description = "Описание задачи 1", CreatedData = DateTime.Now },
-          new() { Id = 1, Title = "Задача 2", Description = "Описание задачи 2", CreatedData = DateTime.Now },
-          new() { Id = 3, Title = "Задача 1", Description = "Описание задачи 3", CreatedData = DateTime.Now },
+          new() { Id = 2, Title = "Задача 2", Description = "Описание задачи 2", CreatedData = DateTime.Now },
+          new() { Id = 3, Title = "Задача 3", Description = "Описание задачи 3", CreatedData = DateTime.Now },
          ];
 
 

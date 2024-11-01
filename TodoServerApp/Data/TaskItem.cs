@@ -9,7 +9,6 @@ namespace TodoServerApp.Data
         public string? Description { get; set; }
         public DateTime? CreatedData { get; set; }
         public DateTime? FinishDate { get; set; }
-
-
+        public DateTime CreatedDate { get; internal set; }
     }
 }
